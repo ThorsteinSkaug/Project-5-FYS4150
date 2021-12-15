@@ -14,7 +14,8 @@ def show_time_t(T_mat, title):
     plt.imshow(T_mat, cmap='viridis', extent=[0,1,0,1])
     plt.xlabel('x',fontsize=14)
     plt.ylabel('y',fontsize=14)
-    plt.colorbar()
+    cbar = plt.colorbar()
+    cbar.set_label('p(x,y)', fontsize=14)
     plt.title(title, fontsize=16)
     plt.savefig(title+'.pdf', dpi=900)
     plt.show()
@@ -26,6 +27,7 @@ def plot_prob(y, x, title):
     plt.ylabel("Probability", fontsize=14)
     plt.title(title, fontsize=16)
     plt.grid()
+    plt.tight_layout()
     plt.savefig(title+'.pdf', dpi=900)
     plt.show()
 
