@@ -8,8 +8,13 @@ The repository has four parts. One folder ```C++ files```, containing all the ne
 
 ## C++ code
 
-The C++ source folder contains two files, one ```makefile``` and one file containing all necessary C++ code called ```project4_main.cpp```. To run the C++ code see the next subsection:
+The C++ source folder contains four files. A ```main.cpp``` for doing the simulation and writing the results to a .txt file. A header file, ```Schrodinger.hpp``` showing and explaining all functions used for this assignment. A ```Schrodinger.cpp``` file contianing all the functions definitions for the functions in the header file. And finaly, a ```makefile``` which makes it easy to run the code.
 
+To run the code just type ```run All``` inn the terminal and give the input file and output file name.
+
+### Input files
+
+For the code to run properly you need to give it an input file on the right form. The input file need to be on the same form as the examples given in the folder ```Input files```. To simulate with other variables just change the numbers. The entry "wall" takes string arguments, either "on" or "off", "nr_slits" takes an interger value between 1 and 3 (If wall is "off" then it does not matter what this value is). All other entries takes doubles.
 
 ## Plotting
-To plot the results from ```project4_main.cpp``` simply run the ```plot.py``` file. 
+
