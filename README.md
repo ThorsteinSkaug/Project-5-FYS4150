@@ -21,6 +21,4 @@ For the code to run properly you need to give it an input file on the right form
 To obtain the plots in the folder ```Plot results``` simply run the main.cpp program with all the input files in the ```Input files``` folder and name the output files the same just without "\_input", and then run the ```plot.py``` file. Note that running ```plot.py``` might take a while because of the large .txt files.
 
 
-<img src = "Plot-results/animation_8.gif"></img>
-
-![](Plot-results/animation_8.gif)
+![](animation_8.gif)
