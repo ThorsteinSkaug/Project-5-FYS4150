@@ -23,6 +23,6 @@ To obtain the plots in the folder ```Plot results``` simply run the main.cpp pro
 If you want to animate the results just run the ```animation.py``` file. Just change the name of the file used in the code and it will simulate the results.
 
 
-### Simulation of a system with 2 slits
+### Simulation of a system with 2 slits:
 
 ![](animation_8.gif)
