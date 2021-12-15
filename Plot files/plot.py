@@ -81,6 +81,10 @@ print(T0imag.shape)
 print(T0real.shape)
 T0probs = T0real**2 + T0imag**2
 
+
+
+
+
 show_time_t(T0imag, "Imag value at t=0")
 show_time_t(T0real, "Real value at t=0")
 show_time_t(T0probs, "2D probability at t=0")
@@ -92,6 +96,8 @@ T1 = np.array(df8.iloc[40,:-2])
 T1imag = T1[1::2].reshape((M,M))
 T1real = T1[::2].reshape((M,M))
 T1probs = T1imag**2 + T1real**2
+
+
 
 
 show_time_t(T1imag, "Imag value at t=0.001")
@@ -118,7 +124,7 @@ at08 = T2probs[:, int(0.8/0.005)]
 at08 = at08/np.sum(at08)
 
 y = np.linspace(0,1,201)
-plot_prob(y, at08, "PDF of y when x = 0.8 with 2 slits")
+plot_prob(y, at08, "PF of y when x = 0.8 with 2 slits")
 
 
 #Problem 9.1
@@ -134,7 +140,7 @@ at08_91 = T91probs[:, int(0.8/0.005)]
 at08_91 = at08_91/np.sum(at08_91)
 
 y = np.linspace(0,1,201)
-plot_prob(y, at08_91, "PDF of y when x = 0.8 with 1 slit")
+plot_prob(y, at08_91, "PF of y when x = 0.8 with 1 slit")
 
 
 #Problem 9.3
@@ -150,4 +156,4 @@ at08_92 = T92probs[:, int(0.8/0.005)]
 at08_92 = at08_92/np.sum(at08_92)
 
 y = np.linspace(0,1,201)
-plot_prob(y, at08_92, "PDF of y when x = 0.8 with 3 slits")
+plot_prob(y, at08_92, "PF of y when x = 0.8 with 3 slits")
