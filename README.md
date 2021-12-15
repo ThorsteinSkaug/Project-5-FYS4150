@@ -20,5 +20,9 @@ For the code to run properly you need to give it an input file on the right form
 
 To obtain the plots in the folder ```Plot results``` simply run the main.cpp program with all the input files in the ```Input files``` folder and name the output files the same just without "\_input", and then run the ```plot.py``` file. Note that running ```plot.py``` might take a while because of the large .txt files.
 
+If you want to animate the results just run the ```animation.py``` file. Just change the name of the file used in the code and it will simulate the results.
+
+
+### Simulation of a system with 2 slits
 
 ![](animation_8.gif)
