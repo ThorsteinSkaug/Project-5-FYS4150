@@ -10,12 +10,15 @@ mpl.rcParams['xtick.labelsize'] = 14
 mpl.rcParams['ytick.labelsize'] = 14
 
 # This function takes a 2D matrix T_mat and make a colormap of the values
-def show_time_t(T_mat, title):
+def show_time_t(T_mat, title, prob=False):
     plt.imshow(T_mat, cmap='viridis', extent=[0,1,0,1])
     plt.xlabel('x',fontsize=14)
     plt.ylabel('y',fontsize=14)
-    cbar = plt.colorbar()
-    cbar.set_label('p(x,y)', fontsize=14)
+    if prob:
+        cbar = plt.colorbar()
+        cbar.set_label('p(x,y)', fontsize=14)
+    else:
+        plt.colorbar()
     plt.title(title, fontsize=16)
     plt.savefig(title+'.pdf', dpi=900)
     plt.show()
