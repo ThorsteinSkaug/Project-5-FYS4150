@@ -1,6 +1,6 @@
 # Project-5-FYS4150
 
-This is a repository for project 5 in FYS4150 (Computational Physics) at the University of Oslo. The goal of this project is to simulate the two-dimensional time-dependent Schrödinger equation. We are looking at one particle being shot towards a wall with either one, two, or three slits. One can also simulate without a wall by swithicng the wall "off". 
+This is a repository for project 5 in FYS4150 (Computational Physics) at the University of Oslo. The goal of this project is to simulate the two-dimensional time-dependent Schrödinger equation. We are looking at one particle being shot towards a wall with slits, better known as the 'double slit experiment', or variations thereof. One can also simulate without a wall by swithicng the wall "off". 
 
 To run the simulation you need to run the ```main.cpp``` file, give the name of the input file and the name you want the output file to have. Each row of the output file will be the state of the system at that given timestep, all even entries being the real part and every odd entry being the imaginary part (starting from 0). The second to last enry is the time for that row, and the lastentry is how much the probability differ from 1.
 
