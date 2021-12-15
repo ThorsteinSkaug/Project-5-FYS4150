@@ -8,7 +8,7 @@ The repository has four parts. One folder ```C++ files```, containing all the ne
 
 ## C++ code
 
-The C++ source folder contains four files. A ```main.cpp``` for doing the simulation and writing the results to a .txt file. A header file, ```Schrodinger.hpp``` showing and explaining all functions used for this assignment. A ```Schrodinger.cpp``` file contianing all the functions definitions for the functions in the header file. And finaly, a ```makefile``` which makes it easy to run the code.
+The C++ source folder contains four files. A ```main.cpp``` for doing the simulation and writing the results to a .txt file. A header file, ```Schrodinger.hpp``` showing and explaining all functions used for this assignment. A ```Schrodinger.cpp``` file contianing all the functions definitions for the functions in the header file. And finaly, a ```Makefile``` which makes it easy to run the code.
 
 To run the code just type ```run All``` inn the terminal and give the input file and output file name.
 
