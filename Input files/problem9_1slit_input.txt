@@ -8,5 +8,5 @@ y_c = 0.5
 sigma_y = 0.2
 p_y = 0
 wall = on
-nr_slits = 2
+nr_slits = 1
 
